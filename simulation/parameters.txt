@@ -1,0 +1,55 @@
+# Number of simulations 
+n_sim = 40
+
+# Random seed
+seed = 23
+
+# Firm innovation
+F = 3
+N0 = (2, 2, 2)
+sigma2_eps = 0.0
+theta = 1e-06
+gamma = 0.0
+ci = 0.0135
+
+mu_ing = 0.0
+mu_intact = -0.05
+sigma2_ing = 0.01
+sigma2_intact = 0.01
+
+# Demand side
+alpha = 0.5
+cf = 0.1
+m = 1.0
+eta = 1.1
+
+# Profit grid
+q_gap = 2.0
+nq = 21
+timelimit_knitro = 30
+
+muy_gap = 1.0
+sigma2y_max = 0.2
+nmuy = 7
+nsigma2y = 6
+# solve_approximation2
+q_bound = 500.0
+mu_bound1 = -0.25
+mu_bound2 = -0.1
+sigma_bound = 0.1
+n_ing_cutoff = 200
+
+# Integral
+cutoff = 6
+ngrid_int = 41
+
+# Gurobi
+timelimit = 600
+mux_lb = -0.5
+N_max = 8
+threshold_sigma = 1e-05
+bad_ing_bound = -0.05
+integer_bound = 1e-05
+
+# Simulation
+T = 101
